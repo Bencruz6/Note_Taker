@@ -42,15 +42,13 @@ def edit_note(request, note_id):
             if form.is_valid():
                 form.save()
                 messages.success(request, 'Note updated successfully!')
+                return redirect('home')
             else:
                 messages.error(request, 'Error updating note. Please check your input.')
-        else:
-            form = NotesForm(instance=note)
-        return render(request, 'notes/edit.html', {'form': form})
-    except Note.DoesNotExist:
-        messages.error(request, 'Note not found.')
-        return redirect('home')
+                return redirect('home')
     except Note.DoesNotExist:
         messages.error(request, 'Note not found.')
     
     return redirect('home')
+   
+
