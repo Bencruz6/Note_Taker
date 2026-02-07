@@ -175,15 +175,16 @@ note-taker/
 
 ## 🎨 Screenshots
 
-### Home Page
+<!-- ### Home Page
 ![Home Page](https://via.placeholder.com/600x400?text=Home+Page)
 
 ### Create Note Modal
 ![Create Modal](https://via.placeholder.com/600x400?text=Create+Note)
 
 ### Edit Note Modal
-![Edit Modal](https://via.placeholder.com/600x400?text=Edit+Note)
+![Edit Modal](https://via.placeholder.com/600x400?text=Edit+Note) -->
 
+comming soon
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
